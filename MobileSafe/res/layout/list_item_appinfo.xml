@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip" >
+    
+    <ImageView 
+        android:id="@+id/iv_app_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginBottom="5dip"
+        android:src="@drawable/ic_launcher"/>
+    
+    <TextView 
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="4dip"
+        android:layout_marginLeft="5dip"
+        android:text="程序名称:"
+        android:layout_toRightOf="@id/iv_app_icon"/>
+    
+	<TextView 
+	    android:id="@+id/tv_app_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#88000000"
+        android:textSize="16sp"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="5dip"
+        android:text="程序安装位置:"
+        android:layout_toRightOf="@id/iv_app_icon"
+        android:layout_below="@id/tv_app_name"/>
+	
+	<ImageView 
+	    android:id="@+id/iv_status"
+	    android:layout_width="25dip"
+	    android:layout_height="25dip"
+	    android:layout_marginRight="5dip"
+	    android:src="@drawable/unlock"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"/>
+	
+    
+</RelativeLayout>

@@ -1,0 +1,61 @@
+10
+
+dir
+1
+https://hello-pc/svn/MobileSafe/res
+https://hello-pc/svn/MobileSafe
+
+
+
+2015-03-10T05:57:06.533227Z
+1
+haha
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+c638208b-fa33-d444-ab84-f868d290a79e
+
+values
+dir
+
+values-w820dp
+dir
+
+drawable-hdpi
+dir
+
+drawable-xxhdpi
+dir
+
+menu
+dir
+
+values-v11
+dir
+
+drawable-ldpi
+dir
+
+values-v14
+dir
+
+drawable-mdpi
+dir
+
+drawable-xhdpi
+dir
+
+layout
+dir
+

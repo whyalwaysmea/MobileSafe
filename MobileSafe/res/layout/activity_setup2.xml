@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ithaha="http://schemas.android.com/apk/res/com.ithaha.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="2.手机卡绑定"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        style="@style/text_content_style"
+        android:text="通过绑定SIM卡:" />
+
+    <TextView
+        style="@style/text_content_style"
+        android:gravity="center_vertical"
+        android:text="下次重启手机如果发现SIM卡变化就会发送报警短信" />
+
+    <com.ithaha.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_setup2_sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ithaha:desc_off="sim卡没有绑定"
+        ithaha:desc_on="sim卡已绑定"
+        ithaha:title1="点击绑定sim卡" >
+    </com.ithaha.mobilesafe.ui.SettingItemView>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dip"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_offline" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_online" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_offline" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_offline" />
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/presence_offline" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bind" />
+
+        <Button style="@style/button_pre_style" />
+
+        <Button style="@style/button_next_style" />
+    </RelativeLayout>
+
+</LinearLayout>

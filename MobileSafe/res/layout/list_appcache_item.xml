@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dip" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/app" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="8dip"
+        android:layout_toRightOf="@id/iv_icon"
+        android:text="程序名称"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginLeft="3dip"
+        android:layout_marginTop="2dip"
+        android:layout_toRightOf="@id/iv_icon"
+        android:text="缓存大小"
+        android:textColor="#88000000"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:background="@drawable/delete_selector"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

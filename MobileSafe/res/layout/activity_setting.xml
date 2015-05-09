@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ithaha="http://schemas.android.com/apk/res/com.ithaha.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="设置中心"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <com.ithaha.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ithaha:desc_off="设置自动更新已经关闭"
+        ithaha:desc_on="设置自动更新已经开启"
+        ithaha:title1="设置自动更新" >
+    </com.ithaha.mobilesafe.ui.SettingItemView>
+
+    <com.ithaha.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_show_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ithaha:desc_off="来电归属地显示已经关闭"
+        ithaha:desc_on="来电归属地显示已经开启"
+        ithaha:title1="来电归属地显示" >
+    </com.ithaha.mobilesafe.ui.SettingItemView>
+
+    <com.ithaha.mobilesafe.ui.SettingClickView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scv_changebg" >
+    </com.ithaha.mobilesafe.ui.SettingClickView>
+    
+    <com.ithaha.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_callsms_safe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ithaha:desc_off="黑名单拦截已经关闭"
+        ithaha:desc_on="黑名单拦截已经开启"
+        ithaha:title1="黑名单拦截设置" >
+    </com.ithaha.mobilesafe.ui.SettingItemView>
+    
+    <com.ithaha.mobilesafe.ui.SettingItemView
+        android:id="@+id/siv_watchdog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ithaha:desc_off="程序锁已经关闭"
+        ithaha:desc_on="程序锁已经开启"
+        ithaha:title1="程序锁设置" >
+    </com.ithaha.mobilesafe.ui.SettingItemView>
+
+</LinearLayout>

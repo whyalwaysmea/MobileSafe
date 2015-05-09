@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/MobileSafe/!svn/ver/0
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/MobileSafe/!svn/ver/2/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/MobileSafe/!svn/ver/1/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/MobileSafe/!svn/ver/1/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/MobileSafe/!svn/ver/1/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/MobileSafe/!svn/ver/7/AndroidManifest.xml
+END
+ic_launcher-web.png
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/MobileSafe/!svn/ver/1/ic_launcher-web.png
+END
